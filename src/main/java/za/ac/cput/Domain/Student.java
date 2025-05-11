@@ -1,4 +1,4 @@
-package za.ca.cput.Domain;
+package za.ac.cput.Domain;
 
 public class Student extends User {
     private String studentId;
@@ -52,9 +52,13 @@ public class Student extends User {
         private String enrollmentYear;
         private String currentYear;
 
-        //Builder settters
+        //Builder settters.
         public Builder setStudentId(String studentId) {
             this.studentId = studentId;
+            return this;
+        }
+        public Builder setFaculty(String faculty) {
+            this.faculty = faculty;
             return this;
         }
     }
