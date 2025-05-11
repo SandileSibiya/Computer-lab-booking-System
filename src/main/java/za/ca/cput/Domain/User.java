@@ -1,3 +1,8 @@
+/*   User.java
+     User domain class
+     Author: SE Sibiya (230975623)
+     Date: 10 May 2025 */
+
 package za.ca.cput.Domain;
 
 public class User {
@@ -12,7 +17,7 @@ public class User {
     }//Default constructor
 
     //Constructor with builder
-    public User(Builder builder) {
+    public User(Builder builder){
         this.userId = builder.userId;
         this.firstName = builder.firstName;
         this.lastName = builder.lastName;
@@ -90,4 +95,3 @@ public class User {
         }
     }
 }
-

@@ -1,4 +1,9 @@
-package za.ac.cput.Domain;
+/*   Student.java
+     Student domain class
+     Author: SE Sibiya (230975623)
+     Date: 10 May 2025 */
+
+package za.ca.cput.Domain;
 
 public class Student extends User {
     private String studentId;
@@ -57,6 +62,7 @@ public class Student extends User {
             this.studentId = studentId;
             return this;
         }
+
         public Builder setFaculty(String faculty) {
             this.faculty = faculty;
             return this;
